@@ -1,0 +1,27 @@
+iniciar-programa
+    inicia-ejecucion
+        { TODO poner codigo aqui }
+        mientras derecha-libre hacer inicio
+         repetir 3 veces inicio;
+         gira-izquierda;
+         fin;
+        avanza;
+        apagate;
+        fin;
+        mientras frente-libre y derecha-bloqueada hacer inicio
+        avanza;
+        mientras derecha-libre hacer inicio
+         repetir 3 veces inicio
+         gira-izquierda;     
+         fin;
+        avanza;
+        apagate;
+        fin;
+        mientras frente-bloqueado hacer inicio
+        gira-izquierda;
+        fin; 
+        fin;
+        
+        apagate;
+    termina-ejecucion
+finalizar-programa

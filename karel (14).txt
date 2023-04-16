@@ -1,0 +1,48 @@
+iniciar-programa
+    inicia-ejecucion
+        { TODO poner codigo aqui }
+         si frente-bloqueado entonces inicio
+    	repetir 2 veces
+        gira-izquierda;
+    fin;
+        	mientras frente-libre o derecha-bloqueada hacer inicio
+            	avanza;
+            
+            mientras frente-bloqueado hacer inicio
+            	gira-izquierda;
+            fin;
+            mientras orientado-al-este hacer inicio
+            	si frente-libre y derecha-bloqueada entonces inicio
+                	avanza;
+                fin
+                sino
+                gira-izquierda;
+            fin;
+           
+        mientras izquierda-libre hacer inicio
+        avanza;
+        si frente-bloqueado entonces gira-izquierda;
+        fin;
+        mientras frente-libre y izquierda-bloqueada hacer inicio
+        avanza;
+        mientras frente-bloqueado y izquierda-libre hacer inicio
+        gira-izquierda;
+        avanza;
+        apagate;
+        fin;
+        mientras frente-bloqueado hacer inicio
+         repetir 3 veces inicio
+         gira-izquierda;
+         fin;
+        avanza;
+        fin;
+        mientras izquierda-libre hacer inicio;
+        gira-izquierda;
+        avanza;
+        apagate;
+        fin;
+        fin;
+        fin;
+        apagate;
+    termina-ejecucion
+finalizar-programa
